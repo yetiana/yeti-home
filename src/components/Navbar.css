@@ -1,0 +1,33 @@
+/* Navbar container */
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #35524a; /* dark green */
+    padding: 8px 12px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+    color: #f8ad9d; /* pinkish */
+    border-bottom: 2px solid #f8ad9d;
+}
+
+/* Indication for the active link */
+.active-link {
+    color: #f8ad9d; /* pinkish */
+    border-bottom: 2px solid #f8ad9d; /* Indicating active page */
+}
