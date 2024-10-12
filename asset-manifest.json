@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yeti-home/static/css/main.1eaebd36.css",
+    "main.js": "/yeti-home/static/js/main.eace4d2b.js",
+    "static/js/453.9a50d1a5.chunk.js": "/yeti-home/static/js/453.9a50d1a5.chunk.js",
+    "index.html": "/yeti-home/index.html",
+    "main.1eaebd36.css.map": "/yeti-home/static/css/main.1eaebd36.css.map",
+    "main.eace4d2b.js.map": "/yeti-home/static/js/main.eace4d2b.js.map",
+    "453.9a50d1a5.chunk.js.map": "/yeti-home/static/js/453.9a50d1a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eaebd36.css",
+    "static/js/main.eace4d2b.js"
+  ]
+}
