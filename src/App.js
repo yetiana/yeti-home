@@ -13,7 +13,7 @@ function App() {
       <div className="font-sans">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/yeti-home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/work" element={<WorkExperiencePage />} />
