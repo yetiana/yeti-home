@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="navbar-list">
         <li>
-          <NavLink exact to="/" activeClassName="active-link" className="nav-link">
+          <NavLink exact to="/yeti-home" activeClassName="active-link" className="nav-link">
             Home
           </NavLink>
         </li>
