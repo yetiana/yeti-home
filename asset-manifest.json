@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/yeti-home/static/css/main.8d8f829c.css",
-    "main.js": "/yeti-home/static/js/main.be7b8cd7.js",
-    "static/js/453.9a50d1a5.chunk.js": "/yeti-home/static/js/453.9a50d1a5.chunk.js",
-    "index.html": "/yeti-home/index.html",
-    "main.8d8f829c.css.map": "/yeti-home/static/css/main.8d8f829c.css.map",
-    "main.be7b8cd7.js.map": "/yeti-home/static/js/main.be7b8cd7.js.map",
-    "453.9a50d1a5.chunk.js.map": "/yeti-home/static/js/453.9a50d1a5.chunk.js.map"
+    "main.css": "/static/css/main.b5c5a424.css",
+    "main.js": "/static/js/main.2e5ee908.js",
+    "static/js/453.9a50d1a5.chunk.js": "/static/js/453.9a50d1a5.chunk.js",
+    "index.html": "/index.html",
+    "main.b5c5a424.css.map": "/static/css/main.b5c5a424.css.map",
+    "main.2e5ee908.js.map": "/static/js/main.2e5ee908.js.map",
+    "453.9a50d1a5.chunk.js.map": "/static/js/453.9a50d1a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d8f829c.css",
-    "static/js/main.be7b8cd7.js"
+    "static/css/main.b5c5a424.css",
+    "static/js/main.2e5ee908.js"
   ]
 }
