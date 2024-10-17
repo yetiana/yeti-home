@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import About from './components/About';
+import AboutPage from './components/pages/AboutPage';
 import ProjectsPage from './components/pages/ProjectsPage';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/yeti-home" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/work" element={<WorkExperiencePage />} />
           <Route path="/contact" element={<Contact />} />
