@@ -13,9 +13,9 @@ const AboutPage = () => {
           <p className="text-xl mb-6">I'm a Software Engineering student at the University of Ottawa, passionate about creating innovative solutions to real-world problems.</p>
           <div className="flex justify-center items-center">
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/University_of_Ottawa_Coat_of_Arms.svg/1200px-University_of_Ottawa_Coat_of_Arms.svg.png"
+              src="https://static.wixstatic.com/media/b69726_3ae46d4c50e1446b8851b1c29583ee21~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_85,usm_0.66_1.00_0.01/b69726_3ae46d4c50e1446b8851b1c29583ee21~mv2.jpg"
               alt="University of Ottawa"
-              className="w-32 h-32 md:w-48 md:h-48 object-contain transition-transform duration-300 hover:scale-105"
+              className="w-500 h-500 md:w-800 md:h-800 object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ const AboutPage = () => {
               <h3 className="text-2xl font-semibold">Baking</h3>
               <p className="mt-2">I love experimenting with new recipes, creating cakes, cookies, and pastries.</p>
               <img
-                src="https://www.example.com/baking.jpg"
+                src="https://i0.wp.com/thestrand.ca/wp-content/uploads/2020/09/artsculture_kitchen-tales_Faith_Dong.jpg?w=1080&ssl=1"
                 alt="Baking"
                 className="w-full h-40 object-cover mt-4 rounded-lg"
               />
@@ -55,11 +55,7 @@ const AboutPage = () => {
             <div className="bg-white text-blue-500 p-6 rounded-lg shadow-md hover:bg-gray-100 transition cursor-pointer">
               <h3 className="text-2xl font-semibold">Knitting</h3>
               <p className="mt-2">From scarves to blankets, I enjoy knitting cozy and creative pieces.</p>
-              <img
-                src="https://www.example.com/knitting.jpg"
-                alt="Knitting"
-                className="w-full h-40 object-cover mt-4 rounded-lg"
-              />
+              <img src="/knitting" alt="Knitting" className="w-full h-40 object-cover mt-4 rounded-lg"/>
             </div>
           </div>
         </div>
