@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AboutPage = () => {
   return (
@@ -10,7 +11,7 @@ const AboutPage = () => {
         {/* University Section */}
         <div className="mb-16">
           <h2 className="text-4xl font-semibold mb-4">University of Ottawa</h2>
-          <p className="text-xl mb-6">I'm a Software Engineering student at the University of Ottawa, passionate about creating innovative solutions to real-world problems.</p>
+          <p className="text-xl mb-6">I'm a 4th year Software Engineering student at the University of Ottawa and am enrolled in their co-op program.</p>
           <div className="flex justify-center items-center">
             <img
               src="https://static.wixstatic.com/media/b69726_3ae46d4c50e1446b8851b1c29583ee21~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_85,usm_0.66_1.00_0.01/b69726_3ae46d4c50e1446b8851b1c29583ee21~mv2.jpg"
@@ -25,14 +26,16 @@ const AboutPage = () => {
           <h2 className="text-4xl font-semibold mb-4">My Passion for Software Engineering</h2>
           <p className="text-xl mb-6">From building web apps to developing dynamic systems, I’m deeply interested in using technology to solve complex challenges and streamline processes.</p>
           <div className="flex justify-center space-x-8">
-            <div className="bg-white text-blue-500 p-6 rounded-lg shadow-md hover:bg-gray-100 transition cursor-pointer">
-              <h3 className="text-2xl font-semibold">Web Development</h3>
-              <p className="mt-2">Building responsive, scalable websites and applications.</p>
-            </div>
-            <div className="bg-white text-blue-500 p-6 rounded-lg shadow-md hover:bg-gray-100 transition cursor-pointer">
-              <h3 className="text-2xl font-semibold">Problem Solving</h3>
-              <p className="mt-2">Utilizing algorithms and efficient code to tackle real-world problems.</p>
-            </div>
+            <Link to="/projects">
+              <div className="bg-white text-blue-500 p-6 rounded-lg shadow-md hover:bg-gray-100 transition cursor-pointer">
+                <h3 className="text-2xl font-semibold">Projects</h3>
+                <img
+                  src="https://github.com/tye101/UnluckyDuck/blob/main/deadbirdie.gif?raw=true"
+                  alt="Unlucky Duck"
+                />
+                <p className="mt-2">This is unlucky duck. One of my first projects.</p>
+              </div>
+            </Link>
           </div>
         </div>
 
