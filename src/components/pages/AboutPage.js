@@ -58,7 +58,7 @@ const AboutPage = () => {
             <div className="bg-white text-blue-500 p-6 rounded-lg shadow-md hover:bg-gray-100 transition cursor-pointer">
               <h3 className="text-2xl font-semibold">Knitting</h3>
               <p className="mt-2">From scarves to blankets, I enjoy knitting cozy and creative pieces.</p>
-              <img src="/knitting" alt="Knitting" className="w-full h-40 object-cover mt-4 rounded-lg"/>
+              <img src="https://thumbs.dreamstime.com/z/threads-knitting-tools-needles-pins-sewing-cross-stitching-isolated-sketches-vector-woolen-knitwear-yarn-scissors-hook-hand-168373097.jpg" alt="Knitting" className="w-full h-40 object-cover mt-4 rounded-lg"/>
             </div>
           </div>
         </div>
