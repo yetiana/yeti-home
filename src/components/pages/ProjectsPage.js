@@ -7,24 +7,37 @@ const technologyColors = {
   React: 'bg-teal-500',
   MongoDB: 'bg-green-600',
   Azure: 'bg-blue-700',
+  TypeScript: 'bg-indigo-500',
+  JSONServer: 'bg-gray-600',
+  NoSQL: 'bg-orange-500',
+  GitHub: 'bg-black',
+  Jira: 'bg-blue-600',
+  Discord: 'bg-purple-500',
+  HTML: 'bg-pink-200',
+  CSS: 'bg-purple-400',
+  Flask: 'bg-indigo-200',
+  Pygame: 'bg-orange-500',
 };
 
-const ProjectCard = ({ title, description, technologies }) => {
+
+const ProjectCard = ({ title, description, technologies, link }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-      <h3 className="text-xl font-bold text-gray-800">{title}</h3>
-      <p className="mt-2 text-gray-600">{description}</p>
-      <div className="mt-4 flex flex-wrap gap-2">
-        {technologies.map((tech) => (
-          <span
-            key={tech}
-            className={`text-white text-xs font-semibold py-1 px-2 rounded ${technologyColors[tech]}`}
-          >
-            {tech}
-          </span>
-        ))}
+    <a href={link} target="_blank" rel="noopener noreferrer" className="block">
+      <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer hover:scale-105 transform transition duration-300">
+        <h3 className="text-xl font-bold text-gray-800">{title}</h3>
+        <p className="mt-2 text-gray-600">{description}</p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {technologies.map((tech) => (
+            <span
+              key={tech}
+              className={`text-white text-xs font-semibold py-1 px-2 rounded ${technologyColors[tech]}`}
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
       </div>
-    </div>
+    </a>
   );
 };
 
@@ -38,24 +51,42 @@ const ProjectsPage = () => {
           <ProjectCard
             title="Academic Team Management"
             description="Web application for managing academic teams for UOttawa’s software engineering capstone course."
-            technologies={['Python', 'JavaScript', 'React']}
+            technologies={['React', 'TypeScript', 'Flask', 'MongoDB','JavaScript']}
+            link="https://github.com/umple/AcademicTeamManagement"
           />
 
           {/* Project 2 */}
           <ProjectCard
-            title="Project 2"
-            description="Description of the project. Tech stack: JavaScript, Azure, MongoDB."
-            technologies={['JavaScript', 'Azure', 'MongoDB']}
+            title="The Herbarium"
+            description="Web application designed for botanists to digitally classify and visualize plant specimens."
+            technologies={['React', 'TypeScript', 'Jira', 'JSONServer']}
+            link="https://github.com/ultra-passion-fruit/The-Archive"
           />
 
           {/* Project 3 */}
           <ProjectCard
-            title="Project 3"
-            description="Description of the project. Tech stack: React, Node.js, Docker."
-            technologies={['React', 'Node', 'Docker']}
+            title="Wendy's Studio"
+            description="Website for hair studio"
+            technologies={['React', 'JavaScript', 'CSS', 'HTML']}
+            link="https://github.com/yetiana/wendys-studio"
           />
           
-          {/* Add more project cards as needed */}
+          {/* Project 4 */}
+          <ProjectCard
+            title="Unlucky Duck"
+            description="Avoid fireballs and collect coins"
+            technologies={['Pygame', 'Python']}
+            link="https://github.com/tye101/UnluckyDuck"
+          />
+
+          {/* Project 5 */}
+          <ProjectCard
+            title="UAgenda"
+            description="Website to manage university courses and work. Frontend and Mockups."
+            technologies={['HTML','CSS','JavaScript']}
+            link="https://github.com/UAgenda/UAgenda.github.io"
+          />
+          
         </div>
       </div>
     </section>
